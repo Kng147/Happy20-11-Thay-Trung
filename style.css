@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
-    background-image:url("257999352_415840346879886_7960530073023652526_n.jpg");
-    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    background-image:url("257999352_415840346879886_7960530073023652526_n.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 span {
     text-transform: uppercase;
@@ -374,11 +377,18 @@ h6{position: relative;
     text-align: center;
     color:rgba(3, 3,3);
     font-size: 1.6em;
-
 }
+.audio{ display:block;}
 
 .swal-overlay {
-    background-color: url("257900358_1825853774275232_5996023177826076623_n.jpg");
+    margin: 0;
+    padding: 0;
+    background-image: url("257900358_1825853774275232_5996023177826076623_n.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 .swal-text {
